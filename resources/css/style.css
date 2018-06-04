@@ -1,0 +1,80 @@
+/*--- GENERAL STYLES ---*/
+
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+.main-content {
+    position: relative;
+    top: 90px;
+    text-align: center;
+}
+
+/*--- CONTAINERS ---*/
+
+.flex-container {
+    display: flex;
+}
+
+
+/*--- HEADER ---*/
+
+header {
+    background-color: black;
+    width: 100%;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+}
+
+.logo {
+    height: 50px;
+    padding-left: 10px;
+}
+
+nav span {
+    padding: 0 20px;
+}
+
+nav a {
+    color: seashell;
+}
+
+
+/*--- CONTENT ---*/
+
+#mission {
+    width: 1200px;
+    height: 700px;
+}
+
+.mission-text {
+    background-color: black;
+    z-index: 1;
+}
+
+
+/*--- FOOTER ---*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
