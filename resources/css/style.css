@@ -6,12 +6,15 @@ body {
     color: seashell;
     background-color: black;
     opacity: 0.9;
+    margin: 0;
+    padding: 0;
 }
 
 .main-content {
     padding-top: 90px;
     text-align: center;
-    margin: auto;
+    position: static;
+    /*top: 100px;*/
 }
 
 /*--- CONTAINERS ---*/
@@ -57,11 +60,12 @@ nav a {
     width: 1200px;
     height: 700px;
     align-items: center;
+    margin: 0 auto;
 }
 
 .mission-text {
     background-color: black;
-    width: 1200px;
+    width: 100%;
     text-align: center;
 }
 
@@ -69,6 +73,7 @@ nav a {
 
 #month {
     width: 1000px;
+    margin: 0 auto;
 }
 
 .month-teas {
@@ -109,7 +114,8 @@ nav a {
     display: flex;
     flex-direction: column;
     align-content: center;
-    margin: 30px;
+    margin: 0 auto;
+    
 }
 
 .address-block {
@@ -127,7 +133,7 @@ nav a {
     align-items: flex-start;
 }
 
-.test {
+.title-location {
     margin-bottom: 0;
     margin-top: 20px;
 }
@@ -135,9 +141,14 @@ nav a {
 
 /*--- FOOTER ---*/
 
+.contact {
+    height: 200px;
+}
 
-
-
+.copy {
+    text-align: left;
+    margin-left: 20px;
+}
 
 
 
